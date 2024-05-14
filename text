@@ -1,0 +1,5 @@
+ibmcloud ce build create --name build-local-dockerfile1 \
+                        --build-type local --size large \
+                        --image us.icr.io/us.icr.io/sn-labs-stijnjanssen/myapp \
+                        --registry-secret icr-secret
+                        /
